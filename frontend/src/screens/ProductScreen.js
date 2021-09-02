@@ -51,7 +51,7 @@ export default function ProductScreen(props) {
                   ></Rating>
                 </li>
                 {/*   <li>Pirce : P {product.price}</li> */}
-                <li>
+                <li className="des-details">
                   Description:
                   <p>{product.description}</p>
                 </li>

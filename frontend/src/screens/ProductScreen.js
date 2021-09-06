@@ -50,7 +50,6 @@ export default function ProductScreen(props) {
                     numReviews={product.numReviews}
                   ></Rating>
                 </li>
-                {/*   <li>Pirce : P {product.price}</li> */}
                 <li className="des-details">
                   Description:
                   <p>{product.description}</p>
